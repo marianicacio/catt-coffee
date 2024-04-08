@@ -1,0 +1,21 @@
+header {
+  background-color: #E4CBBE;
+  display: flex;
+  height: 120px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #923E37;
+}
+
+.elementor-nav-menu__align-end .elementor-nav-menu {
+    margin-inline-start: auto;
+    justify-content: flex-end;
+}
+
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
