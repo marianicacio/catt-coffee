@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat Coffee</title>
     <link rel="stylesheet" href="/src/style.css">
+
 </head>
-<ul id="menu-1-5a8249d7" class="elementor-nav-menu" data-smartmenus-id="17126081562180378"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-16 current_page_item menu-item-23"><a href="https://gateriacatcafe.com.br/" aria-current="page" class="elementor-item elementor-item-active">Bem-Vindo</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-24"><a href="http://gateriacatcafe.com.br/#a-gateria" aria-current="page" class="elementor-item elementor-item-anchor">A Gateria</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-556"><a href="/#cardapio" aria-current="page" class="elementor-item elementor-item-anchor">Cardápio</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-25"><a href="http://gateriacatcafe.com.br/#parceiros" aria-current="page" class="elementor-item elementor-item-anchor">Parceiros</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-26"><a href="http://gateriacatcafe.com.br/#por-ai" aria-current="page" class="elementor-item elementor-item-anchor">Por Aí</a></li><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-27"><a href="http://gateriacatcafe.com.br/#mais-informacoes" aria-current="page" class="elementor-item elementor-item-anchor">Mais Informações</a></li></ul>
 
 <header>
-    <img src="/src/img/Vector.svg" alt="logo">
+    <nav>
+        <ul class="sidebar">
+            <li><a href="#">Bem-vindo</a></li>
+            <li><a href="#">A Gateria</a></li>
+            <li><a href="#">Cardápio</a></li>
+            <li><a href="#">Por aí</a></li>
+            <li><a href="#">Mais informações</a></li>
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        </ul>
+        <ul>
+            <li><a href="#"><img class="logo" src="/src/img/Vector.svg"></a></li>
+            <li class="hideOnMobile"><a href="#">Bem-vindo</a></li>
+            <li class="hideOnMobile"><a href="#">A Gateria</a></li>
+            <li class="hideOnMobile"><a href="#">Cardápio</a></li>
+            <li class="hideOnMobile"><a href="#">Por aí</a></li>
+            <li class="hideOnMobile"><a href="#">Mais informações</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+    </script>
+
+   
 </header>
 
 <body>
