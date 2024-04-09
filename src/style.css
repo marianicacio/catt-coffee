@@ -1,21 +1,80 @@
-header {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav {
   background-color: #E4CBBE;
+}
+
+nav ul {
+  width: 100%;
+  list-style: none;
   display: flex;
-  height: 120px;
+  justify-content: start;
+  align-items: center;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    border: 10px solid #923E37;
+nav li {
+  height: 150px;
 }
 
-.elementor-nav-menu__align-end .elementor-nav-menu {
-    margin-inline-start: auto;
-    justify-content: flex-end;
+nav a {
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 26px;
 }
 
-.elementor-nav-menu--layout-horizontal .elementor-nav-menu {
-    display: flex;
-    flex-wrap: wrap;
+nav a:hover {
+  color: white;
 }
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: #E4CBBE;
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar li {
+  width: 100%;
+}
+
+.sidebar a {
+  width: 100%;
+  font-size: 20px;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  
+  .hideOnMobile {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .logo {
+    height: 100px;
+  }
+
+}
+  
