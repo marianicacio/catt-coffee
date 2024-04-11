@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jacques+Francois+Shadow&display=swap');
+
 *{
   margin: 0;
   padding: 0;
 }
 
 nav {
+  filter: drop-shadow(5px 5px 4px #CBC6B9);
   background-color: #E4CBBE;
 }
 
@@ -62,6 +66,62 @@ nav a:hover {
   display: none;
 }
 
+.imgWelcome {
+  position: absolute;
+  width: 502.72px;
+  height: 620px;
+  left: 870.12px;
+  top: 185px;
+  border: 3px solid #E4CBBE;
+  }
+
+  .imgCardboard {
+  position: absolute;
+  width: 1417px;
+  height: 220px;
+  top: 768px;
+
+  }
+
+.welcome {
+  position: absolute;
+  width: 1417px;
+  height: 677px;
+  left: 0px;
+  top: 158px;
+  background-color: #AD6D64;
+  }
+
+  h1 {
+  position: absolute;
+  width: 632.1px;
+  height: 114px;
+  left: 120.49px;
+  top: 100px;
+  font-family: 'Jacques Francois Shadow';
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  p {
+  position: absolute;
+  width: 702.22px;
+  height: 249px;
+  left: 97.78px;
+  top: 260px;
+  font-family: 'Itim';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
 @media (max-width: 800px) {
   
   .hideOnMobile {
@@ -70,11 +130,16 @@ nav a:hover {
 
   .menu-button {
     display: block;
+    margin-top: auto;
   }
+
 
   .logo {
     height: 100px;
   }
 
 }
+
+
+
   
