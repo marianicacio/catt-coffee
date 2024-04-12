@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  background-color: #FFE7D9;
+}
+
 nav {
   filter: drop-shadow(5px 5px 4px #CBC6B9);
   background-color: #E4CBBE;
@@ -122,6 +126,36 @@ nav a:hover {
   color: #FFFFFF;
   }
 
+.description {
+  position: absolute;
+  width: 711px;
+  height: 339px;
+  left: 661px;
+  top: 1187px;
+  font-family: 'Itim';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  }
+
+  .title {
+  position: absolute;
+  width: 200px;
+  height: 66px;
+  left: 869px;
+  top: 1093px;
+  font-family: 'Jacques Francois Shadow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 66px;
+  text-align: center;
+  }
+
 @media (max-width: 800px) {
   
   .hideOnMobile {
@@ -130,7 +164,6 @@ nav a:hover {
 
   .menu-button {
     display: block;
-    margin-top: auto;
   }
 
 
