@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Jacques+Francois+Shadow&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -74,47 +74,46 @@ nav a:hover {
   position: absolute;
   width: 502.72px;
   height: 620px;
-  left: 870.12px;
+  left: 770px;
   top: 185px;
   border: 3px solid #E4CBBE;
-  }
+}
 
-  .imgCardboard {
+.imgCardboard {
   position: absolute;
-  width: 1417px;
+  width: 1303px;
   height: 220px;
   top: 768px;
 
-  }
+}
 
 .welcome {
   position: absolute;
-  width: 1417px;
+  width: 1303px;
   height: 677px;
   left: 0px;
   top: 158px;
   background-color: #AD6D64;
-  }
+}
 
-  h1 {
+.title {
   position: absolute;
   width: 632.1px;
   height: 114px;
-  left: 120.49px;
+  left: 70px;
   top: 100px;
   font-family: 'Jacques Francois Shadow';
   font-weight: 400;
   font-size: 50px;
-  line-height: 66px;
   text-align: center;
   color: #FFFFFF;
-  }
+}
 
-  p {
-  position: absolute;
+.history {
+  position: relative;
   width: 702.22px;
   height: 249px;
-  left: 97.78px;
+  left: 40px;
   top: 260px;
   font-family: 'Itim';
   font-weight: 400;
@@ -124,40 +123,102 @@ nav a:hover {
   align-items: center;
   text-align: center;
   color: #FFFFFF;
-  }
+}
 
-.description {
-  position: absolute;
-  width: 711px;
+.descriptionCatCoffee {
+  position: relative;
+  width: 580px;
   height: 339px;
-  left: 661px;
-  top: 1187px;
+  left: 700px;
+  top: 1150px;
   font-family: 'Itim';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
   display: flex;
-  align-items: center;
   text-align: center;
-  }
+  color: #000000;
+}
 
-  .title {
+.gateria {
   position: absolute;
-  width: 200px;
+  width: 265px;
   height: 66px;
   left: 869px;
-  top: 1093px;
+  top: 1126px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 50px;
   line-height: 66px;
   text-align: center;
+  color: #923E37;
+}
+
+.imgGateria {
+  position: absolute;
+  width: 480px;
+  height: 615px;
+  left: 115px;
+  top: 1126px;
+  border-radius: 8px;
+}
+
+.adoptions {
+  position: absolute;
+  width: 430px;
+  height: 187px;
+  left: 802px;
+  top: 1700px;
+  background: #E4CBBE;
+  border-radius: 15px;
+}
+
+.imgAdoption {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  left: 932px;
+  top: 1219px;
   }
 
+.numbers {
+  position: relative;
+  width: 300px;
+  height: 115px;
+  left: 140px;
+  top: 25px;
+  font-family: 'Itim';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #923E37;
+}
+
+.carriedOut {
+  position: relative;
+  width: 251px;
+  height: 33px;
+  left: 120px;
+  top: 15px;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+
 @media (max-width: 800px) {
-  
+
   .hideOnMobile {
     display: none;
   }
@@ -174,5 +235,3 @@ nav a:hover {
 }
 
 
-
-  
