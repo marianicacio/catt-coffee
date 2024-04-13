@@ -8,6 +8,9 @@
 
 body {
   background-color: #FFE7D9;
+  max-width: 1440px;
+  height: 2000px;
+  margin: 0 auto;
 }
 
 nav {
@@ -28,8 +31,10 @@ nav li {
 }
 
 nav a {
+  display: flex;
+  width: 100%;
   height: 100%;
-  padding: 0 30px;
+  padding: 0 25px;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -72,24 +77,24 @@ nav a:hover {
 
 .imgWelcome {
   position: absolute;
-  width: 502.72px;
+  width: 502px;
   height: 620px;
-  left: 770px;
+  left: 670px;
   top: 185px;
-  border: 3px solid #E4CBBE;
 }
 
 .imgCardboard {
   position: absolute;
-  width: 1303px;
+  width: 1216px;
   height: 220px;
-  top: 768px;
+  top: 756px;
+  left: 0px;
 
 }
 
 .welcome {
   position: absolute;
-  width: 1303px;
+  width: 1216px;
   height: 677px;
   left: 0px;
   top: 158px;
@@ -98,9 +103,9 @@ nav a:hover {
 
 .title {
   position: absolute;
-  width: 632.1px;
+  width: 632px;
   height: 114px;
-  left: 70px;
+  left: 15px;
   top: 100px;
   font-family: 'Jacques Francois Shadow';
   font-weight: 400;
@@ -111,7 +116,7 @@ nav a:hover {
 
 .history {
   position: relative;
-  width: 702.22px;
+  width: 600px;
   height: 249px;
   left: 40px;
   top: 260px;
@@ -126,11 +131,11 @@ nav a:hover {
 }
 
 .descriptionCatCoffee {
-  position: relative;
-  width: 580px;
+  position: absolute;
+  width: 600px;
   height: 339px;
-  left: 700px;
-  top: 1150px;
+  left: 600px;
+  top: 1225px;
   font-family: 'Itim';
   font-style: normal;
   font-weight: 400;
@@ -144,12 +149,12 @@ nav a:hover {
   position: absolute;
   width: 265px;
   height: 66px;
-  left: 869px;
+  left: 760px;
   top: 1126px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 45px;
   line-height: 66px;
   text-align: center;
   color: #923E37;
@@ -159,7 +164,7 @@ nav a:hover {
   position: absolute;
   width: 480px;
   height: 615px;
-  left: 115px;
+  left: 60px;
   top: 1126px;
   border-radius: 8px;
 }
@@ -168,26 +173,19 @@ nav a:hover {
   position: absolute;
   width: 430px;
   height: 187px;
-  left: 802px;
-  top: 1700px;
+  left: 685px;
+  top: 1610px;
   background: #E4CBBE;
   border-radius: 15px;
 }
 
-.imgAdoption {
-  position: relative;
-  width: 170px;
-  height: 170px;
-  left: 932px;
-  top: 1219px;
-  }
 
 .numbers {
   position: relative;
-  width: 300px;
-  height: 115px;
-  left: 140px;
-  top: 25px;
+  width: 170px;
+  height: 170px;
+  left: 135px;
+  top: 7px;
   font-family: 'Itim';
   font-style: normal;
   font-weight: 400;
@@ -197,25 +195,26 @@ nav a:hover {
   align-items: center;
   text-align: center;
   color: #923E37;
+
+
+  background-image: url(/src/img/patas.svg);
 }
 
 .carriedOut {
-  position: relative;
+  position: absolute;
   width: 251px;
   height: 33px;
   left: 120px;
-  top: 15px;
+  top: 130px;
   font-family: 'Jacques Francois';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 32px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #000000;
 }
-
 
 @media (max-width: 800px) {
 
@@ -233,5 +232,3 @@ nav a:hover {
   }
 
 }
-
-
