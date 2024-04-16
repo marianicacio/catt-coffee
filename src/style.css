@@ -200,8 +200,6 @@ nav a:hover {
   align-items: center;
   text-align: center;
   color: #923E37;
-
-
   background-image: url(/src/img/patas.svg);
 }
 
@@ -222,11 +220,13 @@ nav a:hover {
 }
 
 .carousel {
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
+  top: 700px;
 }
 
 .cardapio {
@@ -248,6 +248,28 @@ nav a:hover {
   animation: scroll 10s linear infinite;
 }
 
+.titleMenu {
+  position: absolute;
+  width: 312px;
+  height: 66px;
+  left: 500px;
+  top: 25px;
+  font-family: 'Jacques Francois Shadow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 84px;
+  text-align: center;
+  color: #000000;
+}
+
+.menuSection {
+  position: relative;
+  width: 1303px;
+  height: 863px;
+  top: 1800px;
+  background: #C99C91;
+}
 
 @keyframes scroll {
   to {
