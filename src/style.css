@@ -220,13 +220,14 @@ nav a:hover {
 }
 
 .carousel {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
-  top: 700px;
+  top: 400px;
+  z-index: 10;
 }
 
 .cardapio {
@@ -240,7 +241,7 @@ nav a:hover {
 }
 
 .wrapper {
-  width: 62.5rem;
+  width: 1300px;
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 15rem;
@@ -264,16 +265,18 @@ nav a:hover {
 }
 
 .menuSection {
-  position: relative;
+  position: absolute;
+  display: flex;
   width: 1303px;
   height: 863px;
-  top: 1800px;
+  top: 1900px;
   background: #C99C91;
+  z-index: 1;
 }
 
 @keyframes scroll {
   to {
-    translate: calc(-3 * 15rem);
+    translate: calc(-3 * 38rem);
   }
 }
 
