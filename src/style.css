@@ -274,6 +274,50 @@ nav a:hover {
   z-index: 1;
 }
 
+h2 {
+  position: absolute;
+  width: 113px;
+  height: 33px;
+  left: -300px;
+  top: 150px;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  color: #000000;
+}
+
+h3 {
+  position: absolute;
+  width: 178px;
+  height: 33px;
+  left: 70px;
+  top: 150px;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+h4 {
+  position: absolute;
+  width: 348px;
+  height: 27px;
+  left: 400px;
+  top: 150px;
+  font-family: 'Jacques Francois';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
 @keyframes scroll {
   to {
     translate: calc(-3 * 38rem);
