@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&family=Jacques+Francois+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=c&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 
 body {
   background-color: #FFE7D9;
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
 }
@@ -56,7 +57,7 @@ nav a:hover {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 250px;
+  width: 100%;
   z-index: 999;
   background-color: #E4CBBE;
   backdrop-filter: blur(10px);
@@ -249,113 +250,29 @@ nav a:hover {
   animation: scroll 10s linear infinite;
 }
 
-.titleMenu {
-  position: absolute;
-  width: 312px;
-  height: 66px;
-  left: 500px;
-  top: 25px;
-  font-family: 'Jacques Francois Shadow';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 45px;
-  line-height: 84px;
-  text-align: center;
-  color: #000000;
-}
-
 .menuSection {
   position: absolute;
-  display: flex;
-  width: 1303px;
+  width: 100%;
   height: 863px;
-  top: 1900px;
-  background: #C99C91;
-  z-index: 1;
+  top: 1904px;
+  background-color: #C99C91;
+}
+
+.titleCardapio {
+  display: flex;
+  justify-content: center;
+  font-family: 'Jacques Francois Shadow';
+  font-size: 50px;
+  margin-top: 15px;
 }
 
 h2 {
-  position: absolute;
-  width: 113px;
-  height: 33px;
-  left: -300px;
-  top: 150px;
-  font-family: 'Jacques Francois';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 30px;
-  color: #000000;
+display: flex;
+margin: 150px;
+margin-top: 10px;
+color: #2A2426;
 }
 
-h3 {
-  position: absolute;
-  width: 178px;
-  height: 33px;
-  left: 70px;
-  top: 150px;
-  font-family: 'Jacques Francois';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 30px;
-  text-align: center;
-  color: #000000;
-}
-
-h4 {
-  position: absolute;
-  width: 348px;
-  height: 27px;
-  left: 400px;
-  top: 150px;
-  font-family: 'Jacques Francois';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 30px;
-  text-align: center;
-  color: #000000;
-}
-
-ul {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  list-style: none;
-  padding-bottom: 12px;
-}
-
-.price {
-  position: absolute;
-  width: 88px;
-  height: 29px;
-  left: -400px;
-  padding-bottom: 12px;
-  top: 200px;
-  font-family: 'Aref Ruqaa';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  color: #FFFFFF;
-  list-style: none;
-}
-
-.menu {
-  position: absolute;
-  width: 180px;
-  height: 26px;
-  left: 125px;
-  top: 0px;
-  font-family: 'Questrial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 35px;
-  text-align: center;
-  color: #000000;
-}
 
 @keyframes scroll {
   to {
