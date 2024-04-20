@@ -318,6 +318,45 @@ h4 {
   color: #000000;
 }
 
+ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding-bottom: 12px;
+}
+
+.price {
+  position: absolute;
+  width: 88px;
+  height: 29px;
+  left: -400px;
+  padding-bottom: 12px;
+  top: 200px;
+  font-family: 'Aref Ruqaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #FFFFFF;
+  list-style: none;
+}
+
+.menu {
+  position: absolute;
+  width: 180px;
+  height: 26px;
+  left: 125px;
+  top: 0px;
+  font-family: 'Questrial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
 @keyframes scroll {
   to {
     translate: calc(-3 * 38rem);
