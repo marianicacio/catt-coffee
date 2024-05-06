@@ -155,14 +155,14 @@ nav a:hover {
 
 .gateria {
   position: absolute;
-  width: 265px;
+  width: 300px;
   height: 66px;
-  left: 810px;
+  left: 790px;
   top: 1126px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
   font-weight: 800;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 66px;
   text-align: center;
   color: #923E37;
@@ -256,12 +256,12 @@ nav a:hover {
   position: absolute;
   width: 312px;
   height: 66px;
-  left: 500px;
+  left: 490px;
   top: 25px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
   font-weight: 400;
-  font-size: 56px;
+  font-size: 50px;
   line-height: 84px;
   text-align: center;
   color: #000000;
@@ -361,6 +361,44 @@ nav a:hover {
   font-family: "Questrial", sans-serif;
   margin-top: 10px;
 }
+
+.porAi h1 {
+  margin-top: 350px;
+  font-family: 'Jacques Francois Shadow';
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.porAi p {
+  width: 479px;
+  height: 38px;
+  display: flex;
+  margin-left: 400px;
+  font-size: 24px;
+  font-family: 'Itim';
+  font-weight: 400;
+  align-items: center;
+  text-align: center;
+}
+
+.imgPorAi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  gap: 30px;
+}
+
+.imgPor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+
 @keyframes scroll {
   to {
     translate: calc(-3 * 38rem);
