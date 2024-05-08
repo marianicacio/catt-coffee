@@ -452,7 +452,71 @@ footer p {
   height: 57px;
   margin-top: 250px;
   margin-left: 100px;
-  
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  color: #AD6D64;
+}
+
+form > div {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+div > .column {
+  display: flex;
+  flex-grow: 1;
+}
+
+div > .column:last-child {
+  width: 110px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input {
+  height: 40px;
+  border: 3px solid #C99C91;
+  background-color: #FFE7D9;
+  width: 100%;
+}
+
+textarea {
+  border: 3px solid #C99288;
+  background-color: transparent;
+}
+
+button {
+  width: 108px;
+  height: 38px;
+  background-color: #FFE7D9;
+  border: 3px solid #C99288;
+  color: #C99C91;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+label {
+  line-height: 30px;
+}
+
+form > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 21px;
 }
 
 @keyframes scroll {
