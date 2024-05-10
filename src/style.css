@@ -464,6 +464,8 @@ form {
   display: flex;
   flex-direction: column;
   color: #AD6D64;
+  margin-left: 650px;
+  margin-top: -440px;
 }
 
 form > div {
@@ -496,7 +498,7 @@ input {
 
 textarea {
   border: 3px solid #C99288;
-  background-color: transparent;
+  background-color: #FFE7D9;
 }
 
 button {
@@ -511,6 +513,7 @@ button {
 
 label {
   line-height: 30px;
+
 }
 
 form > div:last-child {
