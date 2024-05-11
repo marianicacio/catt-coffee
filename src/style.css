@@ -109,7 +109,7 @@ nav a:hover {
   background-color: #AD6D64;
 }
 
-.welcome h1{
+.welcome h1 {
   position: absolute;
   width: 632px;
   height: 114px;
@@ -458,7 +458,7 @@ footer p {
   flex-direction: column;
 }
 
-.sendMenssage h1{
+.sendMenssage h1 {
   color: white;
   font-family: 'Jacques Francois Shadow';
   font-size: 32px;
@@ -478,18 +478,18 @@ form {
   margin-top: -440px;
 }
 
-form > div {
+form>div {
   display: flex;
   width: 100%;
   gap: 20px;
 }
 
-div > .column {
+div>.column {
   display: flex;
   flex-grow: 1;
 }
 
-div > .column:last-child {
+div>.column:last-child {
   width: 110px;
 }
 
@@ -526,7 +526,7 @@ label {
 
 }
 
-form > div:last-child {
+form>div:last-child {
   display: flex;
   justify-content: space-between;
   margin-top: 21px;
@@ -558,18 +558,43 @@ form > div:last-child {
 
   .imgWelcome {
     width: 50%;
-    left: 12px;
+    left: 15px;
     display: flex;
     height: 400px;
     top: 185px;
   }
 
-  .welcome h1 {
-    display: none;
+  .welcome {
+    display: flex;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+    margin-top: 3px;
+    background-color: #AD6D64;
   }
-  
+
+  .welcome h1 {
+    display: flex;
+    left: 10px;
+    top: 620px;
+    font-size: 26px;
+  }
+
   .welcome p {
-    display: none;
+    display: flex;
+    width: 300px;
+    left: 25px;
+    top: 650px;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .imgCardboard {
+    position: absolute;
+    width: 100%;
+    height: 220px;
+    top: 820px;
+    left: 0px;
   }
 
 }
