@@ -86,8 +86,8 @@ nav a:hover {
 .imgWelcome {
   position: absolute;
   display: flex;
-  height: 620px;
-  left: 760px;
+  height: 550px;
+  left: 725px;
   top: 185px;
 }
 
@@ -101,33 +101,33 @@ nav a:hover {
 }
 
 .welcome {
-  position: absolute;
+  display: flex;
   width: 100%;
   height: 677px;
   left: 0px;
-  top: 158px;
+  margin-top: 3px;
   background-color: #AD6D64;
 }
 
-.title {
+.welcome h1{
   position: absolute;
   width: 632px;
   height: 114px;
   left: 50px;
-  top: 100px;
+  top: 250px;
   font-family: 'Jacques Francois Shadow';
-  font-weight: 400;
+  font-weight: 300;
   font-size: 50px;
   text-align: center;
   color: #FFFFFF;
 }
 
-.history {
-  position: relative;
+.welcome p {
+  position: absolute;
   width: 600px;
   height: 249px;
   left: 80px;
-  top: 260px;
+  top: 400px;
   font-family: 'Itim';
   font-weight: 400;
   font-size: 30px;
@@ -140,14 +140,14 @@ nav a:hover {
 
 .descriptionCatCoffee {
   position: absolute;
-  width: 600px;
-  height: 339px;
+  width: 550px;
+  height: 439px;
   left: 650px;
   top: 1225px;
   font-family: 'Itim';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   display: flex;
   text-align: center;
   color: #000000;
@@ -161,7 +161,7 @@ nav a:hover {
   top: 1126px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-size: 50px;
   line-height: 66px;
   text-align: center;
@@ -225,7 +225,6 @@ nav a:hover {
 .carousel {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 25px;
@@ -252,25 +251,24 @@ nav a:hover {
   animation: scroll 10s linear infinite;
 }
 
-.titleCardapio {
-  position: absolute;
-  width: 312px;
-  height: 66px;
-  left: 490px;
-  top: 25px;
+.titleCardapio h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 65px;
+  padding-top: 20px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 50px;
   line-height: 84px;
-  text-align: center;
   color: #000000;
 }
 
 .menuSection {
   position: absolute;
   display: flex;
-  width: 1303px;
+  width: 100%;
   height: 700px;
   top: 1900px;
   background: #C99C91;
@@ -279,8 +277,8 @@ nav a:hover {
 
 .candy h2 {
   display: flex;
-  margin-top: 120px;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-left: 150px;
   font-size: 30px;
   font-family: "Jacques Francois", serif;
   color: #2A2426;
@@ -294,7 +292,7 @@ nav a:hover {
   display: flex;
   padding: 10px;
   gap: 20px;
-  margin-left: 70px;
+  margin-left: 60px;
   font-size: 20px;
   font-family: "Aref Ruqaa", serif;
   color: #FFFFFF;
@@ -308,10 +306,11 @@ nav a:hover {
   margin-top: 10px;
 }
 
+
 .savory h2 {
   display: flex;
   margin-top: -345px;
-  margin-left: 580px;
+  margin-left: 550px;
   font-size: 30px;
   font-family: "Jacques Francois", serif;
   color: #2A2426;
@@ -321,7 +320,7 @@ nav a:hover {
   display: flex;
   padding: 10px;
   gap: 20px;
-  margin-left: 500px;
+  margin-left: 450px;
   font-size: 20px;
   font-family: "Aref Ruqaa", serif;
   color: #FFFFFF;
@@ -338,7 +337,7 @@ nav a:hover {
 .hotDrinks h2 {
   display: flex;
   margin-top: -300px;
-  margin-left: 980px;
+  margin-left: 900px;
   font-size: 30px;
   font-family: "Jacques Francois", serif;
   color: #2A2426;
@@ -348,7 +347,7 @@ nav a:hover {
   display: flex;
   padding: 10px;
   gap: 20px;
-  margin-left: 1000px;
+  margin-left: 925px;
   font-size: 20px;
   font-family: "Aref Ruqaa", serif;
   color: #FFFFFF;
@@ -418,7 +417,7 @@ footer h1 {
   font-style: normal;
   font-weight: 400;
   line-height: 66px;
-  margin-left: 100px;
+  margin-left: 60px;
   margin-top: 40px;
 }
 
@@ -430,7 +429,7 @@ footer p {
   font-weight: 400;
   line-height: 24px;
   padding: 10px;
-  margin-left: 150px;
+  margin-left: 90px;
   margin-top: 20px;
 }
 
@@ -438,7 +437,7 @@ footer p {
   width: 34px;
   height: 34px;
   margin-top: -170px;
-  margin-left: 100px;
+  margin-left: 60px;
   display: flex;
   flex-direction: column;
   gap: 130px;
@@ -451,7 +450,7 @@ footer p {
   width: 57px;
   height: 57px;
   margin-top: 250px;
-  margin-left: 100px;
+  margin-left: 60px;
 }
 
 .contact {
@@ -459,12 +458,23 @@ footer p {
   flex-direction: column;
 }
 
+.sendMenssage h1{
+  color: white;
+  font-family: 'Jacques Francois Shadow';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 66px;
+  margin-left: 560px;
+  margin-top: -510px;
+}
+
 form {
   width: 600px;
   display: flex;
   flex-direction: column;
   color: #AD6D64;
-  margin-left: 650px;
+  margin-left: 560px;
   margin-top: -440px;
 }
 
@@ -534,13 +544,32 @@ form > div:last-child {
     display: none;
   }
 
+  .sidebar {
+    position: absolute;
+  }
+
   .menu-button {
     display: block;
   }
 
-
   .logo {
     height: 100px;
+  }
+
+  .imgWelcome {
+    width: 50%;
+    left: 12px;
+    display: flex;
+    height: 400px;
+    top: 185px;
+  }
+
+  .welcome h1 {
+    display: none;
+  }
+  
+  .welcome p {
+    display: none;
   }
 
 }
