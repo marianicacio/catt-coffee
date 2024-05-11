@@ -83,34 +83,26 @@ nav a:hover {
   display: none;
 }
 
-.imgWelcome {
-  position: absolute;
+.welcomeAling {
   display: flex;
-  height: 550px;
-  left: 725px;
-  top: 185px;
-}
-
-.imgCardboard {
-  position: absolute;
-  width: 100%;
-  height: 220px;
-  top: 756px;
-  left: 0px;
-
 }
 
 .welcome {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 677px;
-  left: 0px;
-  margin-top: 3px;
+  margin-top: 5px;
   background-color: #AD6D64;
 }
 
+.imgWelcome {
+  display: flex;
+  width: 450px;
+  height: 500px;
+  padding-right: 20px;
+}
+
 .welcome h1 {
-  position: absolute;
   width: 632px;
   height: 114px;
   left: 50px;
@@ -123,7 +115,6 @@ nav a:hover {
 }
 
 .welcome p {
-  position: absolute;
   width: 600px;
   height: 249px;
   left: 80px;
@@ -138,8 +129,15 @@ nav a:hover {
   color: #FFFFFF;
 }
 
+.imgCardboard {
+  width: 100%;
+  height: 220px;
+  top: 756px;
+  left: 0px;
+
+}
+
 .descriptionCatCoffee {
-  position: absolute;
   width: 550px;
   height: 439px;
   left: 650px;
@@ -154,7 +152,6 @@ nav a:hover {
 }
 
 .gateria {
-  position: absolute;
   width: 300px;
   height: 66px;
   left: 790px;
@@ -169,7 +166,6 @@ nav a:hover {
 }
 
 .imgGateria {
-  position: absolute;
   width: 480px;
   height: 615px;
   left: 60px;
@@ -178,7 +174,6 @@ nav a:hover {
 }
 
 .adoptions {
-  position: absolute;
   width: 430px;
   height: 187px;
   left: 750px;
@@ -207,7 +202,6 @@ nav a:hover {
 }
 
 .carriedOut {
-  position: absolute;
   width: 251px;
   height: 33px;
   left: 120px;
@@ -266,7 +260,6 @@ nav a:hover {
 }
 
 .menuSection {
-  position: absolute;
   display: flex;
   width: 100%;
   height: 700px;
@@ -544,10 +537,6 @@ form>div:last-child {
     display: none;
   }
 
-  .sidebar {
-    position: absolute;
-  }
-
   .menu-button {
     display: block;
   }
@@ -590,7 +579,6 @@ form>div:last-child {
   }
 
   .imgCardboard {
-    position: absolute;
     width: 100%;
     height: 220px;
     top: 820px;
