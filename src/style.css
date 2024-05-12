@@ -85,28 +85,24 @@ nav a:hover {
 
 .welcomeAling {
   display: flex;
+  background-color: #AD6D64;
+  width: 100%;
+  height: 677px;
+  margin-top: 5px;
 }
 
 .welcome {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin-top: 5px;
-  background-color: #AD6D64;
-}
-
-.imgWelcome {
-  display: flex;
-  width: 450px;
-  height: 500px;
-  padding-right: 20px;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 100px;
+  gap: 50px;
 }
 
 .welcome h1 {
   width: 632px;
   height: 114px;
-  left: 50px;
-  top: 250px;
   font-family: 'Jacques Francois Shadow';
   font-weight: 300;
   font-size: 50px;
@@ -117,8 +113,6 @@ nav a:hover {
 .welcome p {
   width: 600px;
   height: 249px;
-  left: 80px;
-  top: 400px;
   font-family: 'Itim';
   font-weight: 400;
   font-size: 30px;
@@ -129,12 +123,19 @@ nav a:hover {
   color: #FFFFFF;
 }
 
-.imgCardboard {
-  width: 100%;
-  height: 220px;
-  top: 756px;
-  left: 0px;
+.imgWelcome {
+  display: flex;
+  margin-top: 20px;
+  width: 500px;
+  height: 600px;
+  padding-left: 100px;
+}
 
+.imgCardboard {
+  display: flex;
+  width: 100%;
+  margin-top: -60px;
+  height: 199px;
 }
 
 .descriptionCatCoffee {
