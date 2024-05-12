@@ -11,61 +11,62 @@
 
 </head>
 
-<header>
-    <nav>
-        <ul class="sidebar">
-            <li><a href="#">Bem-vindo</a></li>
-            <li><a href="#">A Gateria</a></li>
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Por aí</a></li>
-            <li><a href="#">Mais informações</a></li>
-            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
-                        viewBox="0 -960 960 960" width="24">
-                        <path
-                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-                    </svg></a></li>
-        </ul>
-        <ul>
-            <li><a href="#"><img class="logo" src="/src/img/Vector.svg"></a></li>
-            <li class="hideOnMobile"><a href="#">Bem-vindo</a></li>
-            <li class="hideOnMobile"><a href="#">A Gateria</a></li>
-            <li class="hideOnMobile"><a href="#">Cardápio</a></li>
-            <li class="hideOnMobile"><a href="#">Por aí</a></li>
-            <li class="hideOnMobile"><a href="#">Mais informações</a></li>
-            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
-                        height="26" viewBox="0 -960 960 960" width="26">
-                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                    </svg></a></li>
-        </ul>
-    </nav>
-    <script>
-        function showSidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
-        }
-
-        function hideSidebar() {
-            const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'none'
-        }
-
-    </script>
-</header>
-
 <body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li><a href="#">Bem-vindo</a></li>
+                <li><a href="#">A Gateria</a></li>
+                <li><a href="#">Cardápio</a></li>
+                <li><a href="#">Por aí</a></li>
+                <li><a href="#">Mais informações</a></li>
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                            viewBox="0 -960 960 960" width="24">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img class="logo" src="/src/img/Vector.svg"></a></li>
+                <li class="hideOnMobile"><a href="#">Bem-vindo</a></li>
+                <li class="hideOnMobile"><a href="#">A Gateria</a></li>
+                <li class="hideOnMobile"><a href="#">Cardápio</a></li>
+                <li class="hideOnMobile"><a href="#">Por aí</a></li>
+                <li class="hideOnMobile"><a href="#">Mais informações</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                            height="26" viewBox="0 -960 960 960" width="26">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+        <script>
+            function showSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+
+            function hideSidebar() {
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+
+        </script>
+    </header>
     <main>
-        <div class="welcome">
-            <h1>Bem-vindo ao Cat Coffee!</h1>
-            <p>Miau! Estamos muito felizes em recebê-lo no Cat Coffee, onde ronronados felinos encontram
-                seu café
-                diário. Entre em nosso refúgio aconchegante, onde cada xícara é servida com um toque de bigodes e calor.
-            </p>
-        </div>
-        <div class="imgWelcome">
+        <div class="welcomeAling">
+            <div class="welcome">
+                <h1>Bem-vindo ao Cat Coffee!</h1>
+                <p>Miau! Estamos muito felizes em recebê-lo no Cat Coffee, onde ronronados felinos encontram
+                    seu café
+                    diário. Entre em nosso refúgio aconchegante, onde cada xícara é servida com um toque de bigodes e
+                    calor.
+                </p>
+            </div class="imgWelcome">
             <img src="/src/img/catwelcome.svg" alt="Gato dando boas vindas">
         </div>
-        <div>
-            <img class="imgCardboard" src="/src/img/Cardboard.svg" alt="Cardboard">
+
+        <div class="imgCardboard">
+            <img src="/src/img/Cardboard.svg" alt="Cardboard">
         </div>
     </main>
     <section>
