@@ -138,7 +138,16 @@ nav a:hover {
   height: 199px;
 }
 
-.descriptionCatCoffee {
+.gateria {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 200px;
+  gap: 50px;
+  padding-right: 70px;
+}
+
+.gateria p {
   width: 550px;
   height: 439px;
   left: 650px;
@@ -152,11 +161,9 @@ nav a:hover {
   color: #000000;
 }
 
-.gateria {
-  width: 300px;
+.gateria h1 {
+  width: 570px;
   height: 66px;
-  left: 790px;
-  top: 1126px;
   font-family: 'Jacques Francois Shadow';
   font-style: normal;
   font-weight: 400;
@@ -167,24 +174,28 @@ nav a:hover {
 }
 
 .imgGateria {
+  display: flex;
+  margin-top: -625px;
+  margin-left: 50px;
   width: 480px;
   height: 615px;
-  left: 60px;
-  top: 1126px;
   border-radius: 8px;
 }
 
 .adoptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  margin-left: 750px;
+  margin-top: -100px;
   width: 430px;
   height: 187px;
-  left: 750px;
-  top: 1610px;
   background: #E4CBBE;
   border-radius: 15px;
 }
 
 
-.numbers {
+.adoptions h1 {
   position: relative;
   width: 170px;
   height: 170px;
@@ -202,18 +213,14 @@ nav a:hover {
   background-image: url(/src/img/patas.svg);
 }
 
-.carriedOut {
-  width: 251px;
-  height: 33px;
-  left: 120px;
-  top: 130px;
+.adoptions p {
   font-family: 'Jacques Francois';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
   color: #000000;
 }
 
@@ -223,7 +230,7 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   gap: 25px;
-  top: 250px;
+  top: 700px;
   z-index: 10;
 }
 
@@ -234,7 +241,6 @@ nav a:hover {
 
 .brands-list {
   overflow: hidden;
-  margin-top: 2000px;
 }
 
 .wrapper {
@@ -264,7 +270,6 @@ nav a:hover {
   display: flex;
   width: 100%;
   height: 700px;
-  top: 1900px;
   background: #C99C91;
   z-index: 1;
 }
@@ -356,7 +361,7 @@ nav a:hover {
 }
 
 .porAi h1 {
-  margin-top: 350px;
+  margin-top: 100px;
   font-family: 'Jacques Francois Shadow';
   font-size: 50px;
   display: flex;
@@ -459,16 +464,17 @@ footer p {
   font-style: normal;
   font-weight: 400;
   line-height: 66px;
-  margin-left: 560px;
+  display: flex;
+  margin-left: 660px;
   margin-top: -510px;
 }
 
 form {
-  width: 600px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   color: #AD6D64;
-  margin-left: 560px;
+  margin-left: 660px;
   margin-top: -440px;
 }
 
