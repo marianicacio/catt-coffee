@@ -567,7 +567,7 @@ form>div:last-child {
 
   .welcome h1 {
     margin-top: 400px;
-    margin-left: -170px;
+    margin-left: -180px;
     font-size: 24px;
     text-align: center;
   }
@@ -575,7 +575,7 @@ form>div:last-child {
   .welcome p {
     font-size: 16px;
     margin-top: -60px;
-    margin-left: -170px;
+    margin-left: -180px;
     width: 350px;
     display: flex;
     text-align: center;
