@@ -707,4 +707,26 @@ form>div:last-child {
     top: 1150px;
   }
   
+  .porAi h1 {
+    margin-top: 100px;
+    font-size: 36px;
+  }
+  
+  .porAi p {
+    width: 300px;
+    margin-left: 35px;
+    font-size: 20px;
+  }
+  
+  .imgPorAi {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
+  
+  .imgPor {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+  }
 }
